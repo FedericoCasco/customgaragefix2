@@ -1,0 +1,29 @@
+//utilities
+@import 'utilities/functions.scss';
+@import 'utilities/mixins.scss';
+@import 'utilities/variables.scss';
+
+//basics
+//test
+@import 'basics/colors';
+@import 'basics/typography';
+@import 'basics/resets.scss';
+
+//components
+@import 'components/menu-celu.scss';
+
+//keyframes
+@import 'keyframes/keyframe-celu.scss';
+//layouts
+@import 'layouts/footer.scss';
+@import 'layouts/header.scss';
+
+//pages
+@import 'pages/contacto.scss';
+@import 'pages/donde-estamos.scss';
+@import 'pages/index.scss';
+@import 'pages/nuestros-trabajos.scss';
+@import 'pages/servicios.scss';
+
+
+

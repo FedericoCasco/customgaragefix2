@@ -1,0 +1,24 @@
+.infotitulocontacto {
+    padding: 40px;
+    margin-top: 20px;   
+}
+.cuadrosdecontacto{
+    form{
+        padding: 0;
+        margin: 0;
+        display: grid;
+        justify-content: center; 
+    }
+}  
+.foto-logo-contacto{
+    img{
+        padding: 0;
+        margin: 0;
+        width: 250px; 
+    }
+}
+.mensajewhatsapp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}

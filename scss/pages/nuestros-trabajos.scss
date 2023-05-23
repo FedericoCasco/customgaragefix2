@@ -1,0 +1,17 @@
+.nuestros-trabajos {
+    color: #595857;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+#fotosMotos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid black;
+    img{
+        width: 350px;
+        margin: 20px;
+        box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
+    }
+}

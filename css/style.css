@@ -1,0 +1,378 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source+Sans+Pro' , sans-serif
+}
+html{
+    width: 100vw;
+}
+body{
+    background-color: #ffecd7;
+} */
+/*color del sitio: background-color: #ffecd7; */
+/*index.css*/
+
+.text-center {
+    padding: 30px;
+}
+
+
+
+/* .container-fluid{
+    background-color: #ffecd7;
+    padding: 0 !important;
+}
+
+header p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+}
+.info-contacto{
+    border-bottom: 1px solid black;
+    height: 40px;
+}
+.bis{
+    color: #25D366;
+    font-size: 20px;
+} */
+.col{
+    color: rgb(123, 121, 121);
+    font-weight: bold;
+   
+}   
+
+/* header img{
+    width: 200px;
+} */
+
+/* .fotoytitulos {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    
+}
+
+.titulos ul {
+    list-style-type: none;
+    display: flex;
+    
+
+}
+ .titulos li {
+    padding-right: 70px;
+ }
+ 
+.titulos a {
+    color: #595857;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: rgb(60, 60, 60) 1px 0 10px;
+} */
+.bi {
+    font-size: 35px;
+    padding-right: 20px;
+    display: flex; 
+    align-items: center;
+}
+.seguinos p{
+    margin: 0px !important;
+}
+.col-1{
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.fotos{
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+}
+.fotos-col-1{
+    padding-left: 40px;
+}
+.fotos-col-1,
+.fotos-col-2{
+    width: 50%;
+}
+.img1-fotos{
+    width: 420px;
+    border-radius: 30px;
+}
+.img2-fotos{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.cuadro{
+    border: 1px solid #000000;
+    border-radius: 40px;
+}
+.cuadro p{
+    font-size: 17px;
+    padding: 20px 60px 20px 60px;
+    line-height : 30px;
+}
+.img-cuadro{
+    margin-top: 30px;
+}
+.img-cuadro-celu{
+    border-radius: 30px;
+    width: 500px;
+
+}
+
+.col-2 .img1-fotos{
+    width: 320px;
+    border-radius: 30px;
+}
+.col-2 .img2-fotos{
+    width: 265px;
+    border-radius: 30px;
+}
+
+/* footer
+.img-footer img{
+    width: 150px;
+}
+.row-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;   
+} */
+
+/*css para celular y el side bar*/
+/* .menu-celu i{
+    font-size: 50px;
+    position: absolute;
+    left: 10px;
+    top: 100px;  */
+
+/*css sidebar*/
+/* .menu{
+    margin-top: 80px;    
+}
+.menu-home,
+.menu-estamos,
+.menu-servicios,
+.menu-trabajos,
+.menu-contacto {
+    height: 60px;
+} */
+.menu p a{
+    font-family: 'Source+Sans+Pro' , sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration:none;
+    color: rgb(123, 121, 121);
+}
+.icon-menu-home i{
+    font-size: 24px;
+}
+#sidebar{
+    background-color: #ffecd7 !important;
+}
+
+@media (max-width: 575.98px) {
+    /* .h1-celu{
+        display: block;
+    }
+    .info-contacto {
+        display: none;
+    }
+    .fotoytitulos{
+        border: none;
+        margin-bottom: 30px;
+    }
+    .fotoytitulos img{
+        width: 150px;
+    } */
+    /* .titulos{
+        display: none;
+    }
+    .seguinos:first-child{
+        display: inline-block;
+    }
+    .menu-celu{
+      display: block !important;  
+    }
+    #logo_menu{
+        width: 85px;
+    } */
+    /*index celu*/
+    
+    .cuadro{
+        border: none;
+    }
+   
+    .fotos{
+        display: block !important;
+        border: none;
+    }
+    .fotos-col-1{
+        width: 100%;
+    }
+    .fotos-col-2{
+        width: 100%;
+    }
+    .seguinos{
+        justify-content: center;
+    }
+    #seguinos-d-none{
+        display: none;
+    }
+
+    .col-2-celu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        
+    }
+    .img-cuadro-celu,
+    .img1-fotos,
+    .img2-fotos{
+        width: 80% !important;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    .img-cuadro{
+        display: flex;
+        justify-content: center;
+    }
+    /*footer celu*/
+    .img-footer{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+    .img-footer img{
+        width: 60px;
+        height: 60px;
+    }
+    .row-footer{
+        display: flex;
+        flex-direction: column-reverse; 
+    }
+    .info{
+        width: 100%;
+    }
+    .info p{
+        text-align: center;
+    }
+    /*css nuestros-trabajos.html en celu*/
+    #fotosMotos{
+        width: 100%;
+        display: flex !important;
+        flex-direction: column;
+    }
+    #fotosMotos img{
+        width: 85% !important;
+    }
+    
+
+
+}
+
+
+/*Nuestros Trabajos.css*/
+
+.nuestros-trabajos {
+    color: #595857;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#fotosMotos {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-bottom: 1px solid black;
+}
+    
+  
+
+#fotosmotos img {
+    width: 350px;
+    margin: 20px;
+    box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
+
+
+}
+
+
+
+footer p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Donde estamos*/
+
+.donde-estamos {
+    margin-left: 200px ;
+    color: #595857;
+    font-size: xx-large;
+   
+}
+
+.card div {
+    padding: 0;
+    margin: 0;
+    background-color: #ffecd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body img {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+}
+
+
+
+/*contacto*/
+
+.infotitulocontacto {
+    padding: 40px;
+    margin-top: 20px;   
+}   
+
+
+
+
+.cuadrosdecontacto form {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    
+
+}
+
+.foto-logo-contacto img {
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    
+}
+
+.mensajewhatsapp {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
