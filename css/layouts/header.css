@@ -19,7 +19,7 @@ header p {
 
 .fotoytitulos {
   display: flex;
-  padding: 15px;
+  padding: 18px;
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid black;
