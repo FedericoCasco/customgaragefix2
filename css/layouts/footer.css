@@ -1,0 +1,12 @@
+.img-footer img {
+  width: 150px;
+}
+
+.row-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=footer.css.map */

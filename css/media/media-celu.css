@@ -1,0 +1,99 @@
+@media (max-width: 575.98px) {
+  .h1-celu {
+    display: block;
+  }
+  .info-contacto {
+    display: none;
+  }
+  .fotoytitulos {
+    border: none;
+    margin-bottom: 30px;
+  }
+  .fotoytitulos img {
+    width: 150px;
+  }
+  .titulos {
+    display: none;
+  }
+  .seguinos:first-child {
+    display: inline-block;
+  }
+  .menu-celu {
+    display: block !important;
+  }
+  #logo_menu {
+    width: 85px;
+  }
+  .cuadro {
+    border: none;
+  }
+  .fotos {
+    display: block !important;
+    border: none;
+  }
+  .fotos-col-1 {
+    width: 100%;
+  }
+  .fotos-col-2 {
+    width: 100%;
+  }
+  .seguinos {
+    justify-content: center;
+  }
+  #seguinos-d-none {
+    display: none;
+  }
+  .col-2-celu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .img-cuadro-celu,
+  .img1-fotos,
+  .img2-fotos {
+    width: 80% !important;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  .img-cuadro {
+    display: flex;
+    justify-content: center;
+  }
+  /*footer celu*/
+  .img-footer {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .img-footer img {
+    width: 60px !important;
+    height: 60px;
+  }
+  .row-footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .info {
+    width: 100%;
+  }
+  .info p {
+    text-align: center;
+  }
+  /*css nuestros-trabajos.html en celu*/
+  #fotosMotos {
+    width: 100%;
+    display: flex !important;
+    flex-direction: column;
+  }
+  #fotosMotos img {
+    width: 85% !important;
+  }
+  .card-body img {
+    width: 25%;
+  }
+  .mapitaprueba iframe {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=media-celu.css.map */

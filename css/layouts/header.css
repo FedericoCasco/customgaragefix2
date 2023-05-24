@@ -1,0 +1,43 @@
+header img {
+  width: 200px;
+}
+header p {
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.info-contacto {
+  border-bottom: 1px solid black;
+  height: 40px;
+}
+
+.bis {
+  color: #25D366;
+  font-size: 20px;
+}
+
+.fotoytitulos {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}
+
+.titulos ul {
+  list-style-type: none;
+  display: flex;
+}
+.titulos ul li {
+  padding-right: 70px;
+}
+.titulos ul li a {
+  color: #595857;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  text-shadow: rgb(60, 60, 60) 1px 0 10px;
+}
+
+/*# sourceMappingURL=header.css.map */

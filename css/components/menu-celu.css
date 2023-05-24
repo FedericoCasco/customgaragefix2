@@ -1,0 +1,40 @@
+.menu {
+  margin-top: 80px;
+}
+.menu p a {
+  font-family: "Source+Sans+Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  text-decoration: none;
+  color: rgb(123, 121, 121);
+}
+
+.menu-home,
+.menu-estamos,
+.menu-servicios,
+.menu-trabajos,
+.menu-contacto {
+  height: 60px;
+}
+
+.menu-celu i {
+  font-size: 50px;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+
+.icon-menu-home i {
+  font-size: 24px;
+}
+
+#sidebar {
+  background-color: #ffecd7 !important;
+}
+
+.fotos-col-1,
+.fotos-col-2 {
+  width: 95% !important;
+}
+
+/*# sourceMappingURL=menu-celu.css.map */

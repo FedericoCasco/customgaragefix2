@@ -1,0 +1,22 @@
+.donde-estamos {
+  margin-left: 200px;
+  color: #595857;
+  font-size: xx-large;
+}
+
+.card div {
+  padding: 0;
+  margin: 0;
+  background-color: #ffecd7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body img {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+}
+
+/*# sourceMappingURL=donde-estamos.css.map */
