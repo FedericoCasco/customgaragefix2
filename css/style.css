@@ -12,7 +12,7 @@ body{
 /*color del sitio: background-color: #ffecd7; */
 /*index.css*/
 
-.text-center {
+/*.text-center {
     padding: 30px;
 }
 
@@ -36,7 +36,8 @@ header p{
     color: #25D366;
     font-size: 20px;
 } */
-.col{
+
+/*.col{
    color: rgb(123, 121, 121);
     font-weight: bold;
    
