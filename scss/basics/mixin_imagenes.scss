@@ -1,0 +1,65 @@
+@mixin product_picture($src) {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background-image: $src;
+  
+    background-size: cover;
+  
+    border-radius: 20px;
+  
+    transition: 0.3s ease;
+  
+    color: rgba(1, 1, 1, 0);
+  
+    &:hover {
+      z-index: 1;
+      border-radius: 5px;
+
+
+// Mixin para estilos de botones con diferentes tamaños y colores
+
+@mixin button($size, $color) {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: $size;
+  
+// Aplicar estilos según el color seleccionado
+@if $color == "red" {
+      background-color: red;
+      color: white;
+    }
+@else if $color == "blue" {
+      background-color: blue;
+      color: white;
+    } 
+@else if $color == "green" {
+      background-color: green;
+      color: white;
+    }
+@else {
+      background-color: gray;
+      color: black;
+    }
+  }
+  
+  // Uso del mixin en un botón
+  
+  .button {
+    @include button(16px, "blue");
+  }
+  En este ejemplo, el mixin button acepta dos parámetros: $size y $color. El parámetro $size controla el tamaño de fuente del botón y el parámetro $color determina el color de fondo del botón.
+  
+  Dentro del mixin, se establecen algunas reglas de estilo comunes para todos los botones, como la visualización en línea, el relleno, el borde redondeado y el tamaño de fuente. Luego, se utiliza una declaración @if y @else if para aplicar estilos diferentes según el color seleccionado.
+  
+  Finalmente, en el uso del mixin, se llama al mixin button y se proporcionan los valores deseados para el tamaño y el color del botón.
+  
+  Puedes ajustar los valores y agregar más opciones de estilo según tus necesidades. ¡Espero que esto te ayude a crear tu mixin en Sass!
+  
+  
+  
+  
+  
+  
+  
