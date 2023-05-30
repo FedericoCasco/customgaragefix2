@@ -1,7 +1,16 @@
 @charset "UTF-8";
 .infotitulocontacto {
-  padding: 40px;
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #595857;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+
+.subtitulocontacto {
+  display: flex;
+  justify-content: center;
 }
 
 .cuadrosdecontacto form {
@@ -24,19 +33,20 @@
 }
 
 .botonenviar {
-  border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-  padding: 10px; /*espacio alrededor texto*/
+  padding: 40px; /*espacio alrededor texto*/
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin-top: 50px;
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-left: 720px;
+  margin-right: 720px;
+  display: flex;
+  justify-content: center;
   background-color: #8b802e; /*color botón*/
   color: #ffffff; /*color texto*/
   text-decoration: none; /*decoración texto*/
   text-transform: uppercase; /*capitalización texto*/
   font-family: "Helvetica", sans-serif; /*tipografía texto*/
-  border-radius: 50px; /*bordes redondos*/
-  display: flex;
-  justify-content: center;
+  border-radius: 10px; /*bordes redondos*/
 }
 
 /*# sourceMappingURL=contacto.css.map */

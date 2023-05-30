@@ -1,3 +1,10 @@
-
+.servicios {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #595857;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=servicios.css.map */
