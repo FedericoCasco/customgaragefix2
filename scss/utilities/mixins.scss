@@ -1,0 +1,27 @@
+
+@mixin threed-button($base-color){
+    $shadow: "";
+  
+    @for $i from 1 through 4{
+      $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
+    } 
+  
+    $shadow : str-slice($shadow,0,str-length($shadow)-1);
+
+  }
+  button{
+    @include threed-button(#595857)
+  }
+  
+
+
+
+  @mixin flexboxcenter ($justify) {
+    display: flex;
+    justify-content: $justify;
+  }
+
+  
+  
+  
+  

@@ -1,25 +1,17 @@
-.donde-estamos {
-  margin-top: 50px;
-  margin-left: 50px;
-  color: #595857;
-  font-size: xx-large;
-  display: flex;
-  justify-content: center;
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 6 |     @include flexboxcenter (center)
+ *   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\pages\donde-estamos.scss 6:5  root stylesheet */
 
-.card div {
-  padding: 0;
-  margin: 0;
-  background-color: #ffecd7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 6 \2502      @include flexboxcenter (center)\a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\donde-estamos.scss 6:5  root stylesheet";
 }
-
-.card-body img {
-  margin: 0;
-  padding: 0;
-  width: 20px;
-}
-
-/*# sourceMappingURL=donde-estamos.css.map */

@@ -3,8 +3,7 @@
     margin-left: 50px ;
     color: #595857;
     font-size: x-large;  
-    display: flex;
-    justify-content: center;  
+    @include flexboxcenter (center)  
 }
 
 .subtitulocontacto {
@@ -45,8 +44,8 @@
     background-color: #8b802e; /*color botón*/
     color: #ffffff; /*color texto*/
     text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
     font-family: 'Helvetica', sans-serif; /*tipografía texto*/
     border-radius: 10px; /*bordes redondos*/
+    
     
     }

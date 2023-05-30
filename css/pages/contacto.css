@@ -1,52 +1,17 @@
-@charset "UTF-8";
-.infotitulocontacto {
-  margin-top: 50px;
-  margin-left: 50px;
-  color: #595857;
-  font-size: x-large;
-  display: flex;
-  justify-content: center;
-}
+/* Error: Undefined mixin.
+ *   ,
+ * 6 |     @include flexboxcenter (center)  
+ *   |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   scss\pages\contacto.scss 6:5  root stylesheet */
 
-.subtitulocontacto {
-  display: flex;
-  justify-content: center;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a   \2577 \a 6 \2502      @include flexboxcenter (center)  \a   \2502      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\pages\\contacto.scss 6:5  root stylesheet";
 }
-
-.cuadrosdecontacto form {
-  padding: 0;
-  margin: 0;
-  display: grid;
-  justify-content: center;
-}
-
-.foto-logo-contacto img {
-  padding: 0;
-  margin: 0;
-  width: 250px;
-}
-
-.mensajewhatsapp {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-.botonenviar {
-  padding: 40px; /*espacio alrededor texto*/
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 50px;
-  margin-left: 720px;
-  margin-right: 720px;
-  display: flex;
-  justify-content: center;
-  background-color: #8b802e; /*color botón*/
-  color: #ffffff; /*color texto*/
-  text-decoration: none; /*decoración texto*/
-  text-transform: uppercase; /*capitalización texto*/
-  font-family: "Helvetica", sans-serif; /*tipografía texto*/
-  border-radius: 10px; /*bordes redondos*/
-}
-
-/*# sourceMappingURL=contacto.css.map */
