@@ -154,6 +154,17 @@ body {
     width: 100%;
   }
 }
+.botonenviar {
+  padding: 40px; /*espacio alrededor texto*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #8b802e; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-family: "Helvetica", sans-serif; /*tipografía texto*/
+  border-radius: 10px; /*bordes redondos*/
+}
+
 .img-footer img {
   width: 150px;
 }
@@ -274,10 +285,8 @@ header p {
   align-items: center;
 }
 
-.card-body img {
-  margin: 0;
-  padding: 0;
-  width: 20px;
+.card-text {
+  margin-top: 20px;
 }
 
 .text-center {

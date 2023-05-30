@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media (max-width: 575.98px) {
   .h1-celu {
     display: block;
@@ -94,6 +95,16 @@
   .mapitaprueba iframe {
     width: 100%;
   }
+}
+.botonenviar {
+  padding: 40px; /*espacio alrededor texto*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #8b802e; /*color botón*/
+  color: #ffffff; /*color texto*/
+  text-decoration: none; /*decoración texto*/
+  font-family: "Helvetica", sans-serif; /*tipografía texto*/
+  border-radius: 10px; /*bordes redondos*/
 }
 
 /*# sourceMappingURL=media-celu.css.map */
