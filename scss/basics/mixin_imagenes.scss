@@ -1,57 +1,22 @@
-@mixin product_picture($src) {
-    position: relative;
-    width: 80%;
-    height: 80%;
-    background-image: $src;
-  
-    background-size: cover;
-  
-    border-radius: 20px;
-  
-    transition: 0.3s ease;
-  
-    color: rgba(1, 1, 1, 0);}
-  
-    &:hover {
-      z-index: 1;
-      border-radius: 5px;
-      }
 
-
-// Mixin para estilos de botones con diferentes tamaños y colores
-
-@mixin button($size, $color) {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: $size;
+  @mixin threed-button($base-color){
+    $shadow: "";
   
-// Aplicar estilos según el color seleccionado
-@if $color == "red" {
-      background-color: red;
-      color: white;
-    }
-@else if $color == "blue" {
-      background-color: blue;
-      color: white;
+    @for $i from 1 through 4{
+      $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
     } 
-@else if $color == "green" {
-      background-color: green;
-      color: white;
-    }
-@else {
-      background-color: gray;
-      color: black;
-    }
+  
+    $shadow : str-slice($shadow,0,str-length($shadow)-1);
+    appearance: none;
+    border:none;
+    background: $base-color;
+    box-shadow: unquote($shadow);
   }
-  
-  // Uso del mixin en un botón
-  
-  .button {
-    @include button(16px, "blue");
+  button{
+    @include threed-button(#ff4081);
+    font-size:18px;
+    color:white;
   }
-  
-  
   
   
   
