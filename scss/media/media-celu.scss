@@ -116,22 +116,11 @@
             width: 84%;
         }
     }
+    .botonenviar1{
+        display: flex;
+        justify-content: center;
+        
+    }
 
 
 }
-
-
-
-.botonenviar {
-    padding: 40px; /*espacio alrededor texto*/
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-    background-color: #8b802e; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 10px; /*bordes redondos*/
-    
-    
-    }
