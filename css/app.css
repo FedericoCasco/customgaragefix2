@@ -406,12 +406,12 @@ header p {
 }
 
 img:hover {
-  -webkit-transform: scale(1.3);
   transform: scale(1.3);
+  transition: all 0.5s ease;
 }
 
 img {
-  overflow: hidden;
+  transition: all 0.5s ease;
 }
 
 .servicios {
