@@ -290,8 +290,21 @@ header p {
   align-items: center;
 }
 
+.card-text1 {
+  margin-top: 20px;
+  color: #595857;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .card-text {
   margin-top: 20px;
+  color: #260bed;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  text-shadow: rgb(7, 17, 206) 1px 0 10px;
 }
 
 .text-center {
