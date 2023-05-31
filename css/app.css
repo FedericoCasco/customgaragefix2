@@ -11,6 +11,7 @@ html {
 
 body {
   background-color: #ffecd7;
+  overflow-x: hidden;
 }
 
 .container-fluid {
