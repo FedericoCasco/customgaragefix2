@@ -405,6 +405,15 @@ header p {
   box-shadow: -3px 6px 21px 0px rgba(0, 0, 0, 0.75);
 }
 
+img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+img {
+  overflow: hidden;
+}
+
 .servicios {
   margin-top: 50px;
   margin-left: 50px;
