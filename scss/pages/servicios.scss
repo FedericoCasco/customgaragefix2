@@ -6,27 +6,28 @@
     @include flexboxcenter (center) 
     }
 
-.carousel {
-
-    max-width: 600px;
-    padding: 0;
-    margin: 0;
-    margin-right: 400px;
-    margin-left: 50px;
-    box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
-}
-
-.container-sm {
-    font-size: large;
-    max-width: 600px;
-    padding: 50px;
-    margin: 0;
-    margin-left: 400px;
-    box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
-}
-
 .primerafila {
     margin-top: 50px;
     padding: 0;
     @include flexboxcenter (center)
+}
+.carousel {
+    max-width: 600px;
+    padding: 0;
+    
+    box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
+}
+
+.segundafila {
+    margin-top: 50px;
+    padding: 0;
+    @include flexboxcenter (center)
+
+}
+.container-sm2 {
+    font-size: large;
+    max-width: 600px;
+    padding: 50px;
+ 
+    box-shadow: -3px 6px 21px 0px rgba(0,0,0,0.75);
 }
